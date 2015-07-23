@@ -1,0 +1,193 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" >
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+     <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="Animation" />
+    
+    <style name="Animation.Translucent" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/translucent_zoom_out</item>
+        <item name="android:windowExitAnimation">@anim/translucent_zoom_exit</item>
+    </style>
+    
+    <style name="Theme.HalfTranslucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/half_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> :
+    </style>
+        <style name="ll_vertical">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ll_vertical_gary" parent="@style/ll_vertical">
+        <item name="android:background">@color/gray</item>
+    </style>
+    <style name="ll_horizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+     <style name="tvTitle">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#4cbc00</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cs</item>
+    </style>
+    <style name="tvTitle_textGreen" parent="@style/tvTitle">
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="tvBody">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColorHint">@color/gray_font_hint</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cs</item>
+    </style>
+     <style name="tvBody_textSmall" parent="@style/tvBody">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="tvBody_textGreen" parent="@style/tvBody">
+        <item name="android:textColor">@color/green</item>
+    </style>
+     <style name="line_1dp">
+        <item name="android:background">@color/gray_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+     <style name="line_0.5dp" parent="@style/line_1dp">
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="frame_btn_submit">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/submit_selector_green</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+     <style name="line_vetical">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">2.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="edit_con_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/gray_font_hint</item>
+        <item name="android:background">@drawable/frame_shape_garyline</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+     
+    <style name="tvBody_match_parent" parent="@style/tvBody">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+<style name="tvTitle_1.5" parent="@style/tvTitle">
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+      <style name="menu_line_0.5dp" parent="@style/line_0.5dp">
+        <item name="android:background">@color/menu_gray_line</item>
+    </style>
+     <style name="MyAllTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen"> </style>
+      <style name="frame_edit_text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColorHint">@color/gray_font_hint</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+      <style name="frame_layout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@*android:color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    
+      <style name="getCodeButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:background">@drawable/getcode_selected</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:text">@string/get_auth_code</item>
+    </style>
+    
+      <style name="tvBody_1.8" parent="@style/tvBody">
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    
+       <style name="frame_table">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+      
+    <style name="frame_base_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/gray_line</item>
+        <item name="android:padding">0.5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+     <style name="sv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

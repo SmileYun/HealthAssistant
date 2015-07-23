@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/customerqlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0.0dip"
+            android:listSelector="#00000000" />
+ 
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mftwcustomersubmit"
+        style="@style/frame_btn_submit"
+        android:text="@string/mftw"
+        android:textSize="20.0sp" />
+
+</LinearLayout>

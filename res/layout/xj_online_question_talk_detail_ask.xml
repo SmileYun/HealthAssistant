@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+ 
+        <EditText
+            android:id="@+id/ask_again_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_weight="0.1"
+            android:background="@drawable/xj_btn_comment"
+            android:maxLength="500" />
+
+        <Button
+            android:id="@+id/submit_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13.0dip"
+            android:background="@drawable/xj_ask_question"
+            android:gravity="center"
+            android:text="@string/sendquestion"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

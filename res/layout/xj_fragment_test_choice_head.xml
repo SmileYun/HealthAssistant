@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_test_head"
+    style="@style/ll_vertical" >
+
+    <View style="@style/line_0.5dp" />
+
+    <TextView
+        android:id="@+id/tv_healthtest_testtitle"
+        style="@style/tvTitle_1.5"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

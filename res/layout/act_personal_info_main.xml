@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_hospital_register"
+        android:id="@+id/interal_t"
+        />"
+
+    <ImageView
+        android:id="@+id/interal_i"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fontsize12"
+        android:scaleType="centerCrop"
+        android:src="#037800"
+        android:layout_below="@+id/interal_t"
+         />
+
+    <com.dongshi.healthassisant.widget.PersonLayout
+        android:layout_below="@+id/interal_i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/person_info_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+             android:paddingBottom="3dp"
+             android:background="@color/transparent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/loginimageico" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:padding="5dp"
+                    android:text="账号"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize20" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_personal_info_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="5dp"
+                    android:text="1590000000"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize16" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/person_info_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#d3ffaf"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="姓名："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="张某某 "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="就诊卡号："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="123458801 "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="性别："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="男"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="登录账号："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="13983910256 "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="出生日期："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="1978.01.03"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="关注领域："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="忧郁症、高血压"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="先确诊病症："
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="@dimen/fontsize14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="5dp"
+                        android:text="甲型肝炎"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/fontsize14" />
+                </LinearLayout>
+            </TableRow>
+        </LinearLayout>
+
+ 	  <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/fontsize12"
+            android:scaleType="centerCrop"
+            android:src="@color/grey" />
+ 
+        <LinearLayout
+            android:id="@+id/person_info_lvll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listview_personal_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice"
+                android:listSelector="@null"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </com.dongshi.healthassisant.widget.PersonLayout>
+
+</RelativeLayout>

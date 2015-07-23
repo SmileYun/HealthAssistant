@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dongshi.healthassisant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.dongshi.healthassisant.app.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:windowSoftInputMode="adjustPan|adjustResize"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.dongshi.healthassisant.ui.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.dongshi.healthassisant.ui.MainLoad"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.hospitalregister.ActHospitalRegister" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ActHealthNews" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.NewsInfoActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ChatKindActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ActHealthChat" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ReportListActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ChatActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.HealthTestTabActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.GetReportActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.ActivationCardActivity" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMain" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabAlarm" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabUserInfo" >
+        </activity>
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabInternetExam" />
+                <activity android:name="com.dongshi.healthassisant.ui.tabact.TabFamourDoc" />
+         <activity android:name="com.dongshi.healthassisant.ui.internetexam.OnlineCustomerService" />
+        <activity android:name="com.dongshi.healthassisant.ui.internetexam.OnlineDoctorService" />
+        <activity android:name="com.dongshi.healthassisant.ui.internetexam.OnlineTalkDetailActivity" android:windowSoftInputMode="adjustResize" android:screenOrientation="nosensor" />
+        <activity android:name="com.dongshi.healthassisant.ui.internetexam.MyOnlineQuestionActivity" />
+        <activity android:name="com.dongshi.healthassisant.ui.alarm.AlarmSettingActivity" />
+        <activity android:name="com.dongshi.healthassisant.ui.alarm.PriceDetailActivity" />
+        
+        <activity android:name="com.dongshi.healthassisant.ui.healthtest.ActHealthTest" />
+        <activity android:name="com.dongshi.healthassisant.ui.healthtest.LiangbiaoActivity" />
+        <activity android:name="com.dongshi.healthassisant.ui.healthtest.TestTabActivity" />
+        <activity android:name="com.dongshi.healthassisant.ui.healthtest.HealthTestResult" />
+        
+        
+        
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore_AddUserManage" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore_About" />
+        <activity
+            android:name="com.dongshi.healthassisant.ui.tabact.TabMore_UserManage"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.dongshi.healthassisant.widget.LoginDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.HalfTranslucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore_Problem" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore_Problem_Items" />
+        <activity android:name="com.dongshi.healthassisant.ui.tabact.TabMore_Statement" />
+        <activity android:name="com.dongshi.healthassisant.ui.smartexam.ActSmartDiagnoiseLocation" />
+        <activity android:name="com.dongshi.healthassisant.ui.smartexam.ActSmartDiagnoise" />
+        <activity android:name="com.dongshi.healthassisant.ui.smartexam.ActSmartDSelfExam" />
+        <activity android:name="com.dongshi.healthassisant.ui.smartexam.ActSmartDEXamResult" />
+        <activity android:name="com.dongshi.healthassisant.ui.personalinfo.ActPersonalInfo" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospitalregister.ActHospitalChoise" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospitalregister.ActHospitalChoiseDetail" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospitalregister.ActDoctorList" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospitalregister.ActDoctorHome" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospital_information.hospitalinformation_with_old" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospital_information.hospitalinformation_image" />
+        <activity android:name="com.dongshi.healthassisant.ui.hospital_information.hospitalinformation_usa_detail" />
+         <activity android:name="com.dongshi.healthassisant.ui.hospital_information.hospitalinformation_with" />
+
+        <activity android:name="com.dongshi.healthassisant.ui.healthinformation.healthinformation_main" />
+        <activity android:name="com.dongshi.healthassisant.ui.healthinformation.healthinformation_context" />
+        <activity android:name="com.dongshi.healthassisant.ui.healthinformation.healthinformation_item01" />
+        <activity android:name="com.dongshi.healthassisant.ui.login.ActLoginRegister" />
+        <activity android:name="com.dongshi.healthassisant.ui.login.ActLogin" />
+        <activity android:name="com.dongshi.healthassisant.ui.personalinfo.ActPersonalInfo_Detail" />
+
+        <activity android:name="com.dongshi.healthassisant.ui.personalinfo.ActPersonResfult" />
+        <activity android:name="com.dongshi.healthassisant.ui.personalinfo.TestAct" />
+    </application>
+
+</manifest>

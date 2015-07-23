@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sv"
+    android:overScrollMode="never" >
+
+    <LinearLayout style="@style/ll_vertical" >
+
+        <TextView
+            android:id="@+id/tv_healthtest_testtitle"
+            style="@style/tvTitle_1.5"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:textColor="@android:color/black" />
+
+        <com.dongshi.healthassisant.ui.healthtest.SvListView
+            android:id="@+id/lv_healthtest_testoption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/transparent"
+            android:dividerHeight="10.0dip"
+            android:listSelector="@color/transparent"
+            android:stackFromBottom="false" />
+
+        <LinearLayout
+            android:id="@+id/ll_test"
+            style="@style/ll_vertical"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</ScrollView>

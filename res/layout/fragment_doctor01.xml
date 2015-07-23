@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/item_image3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/yishengjianjie_hospital"
+                    android:layout_width="244dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="陕西省儿童医院"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="眼科"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:scaleType="centerCrop"
+            android:src="#d5d5d5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/item_image4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat"
+                    android:layout_width="244dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="擅长"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="斜视诊断及手术治疗，屈光..................."
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:scaleType="centerCrop"
+            android:src="#d5d5d5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/item_image5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat1"
+                    android:layout_width="244dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="简介"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="斜视诊断及手术治疗，屈光..................."
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

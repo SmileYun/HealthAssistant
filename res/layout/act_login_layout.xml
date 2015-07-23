@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_hospital_register" />
+
+    <EditText
+        android:id="@+id/cce_login_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_marginRight="@dimen/margin_left7"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="账号及注册手机号"
+        android:padding="8dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/cce_login_mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_marginRight="@dimen/margin_left7"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="密码"
+        android:padding="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/ccc_login_atuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="34dp"
+            android:text="自动登录" />
+
+        <CheckBox
+            android:id="@+id/ccc_login_remember_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:text="记住密码" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ccb_login"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widget_height50"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_marginRight="@dimen/margin_left7"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:background="#037800"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/ccb_login_register"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widget_height50"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_marginRight="@dimen/margin_left7"
+        android:layout_marginTop="25dp"
+        android:background="#05d600"
+        android:text="注册" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/cct_login_forget_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/margin_left7"
+            android:linksClickable="true"
+            android:singleLine="true"
+            android:text="忘记密码"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+</LinearLayout>

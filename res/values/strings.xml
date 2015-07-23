@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌中医院</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="array_tab_class">
+        <item>TabMain.class</item>
+        <item>TabAlarm.class</item>
+        <item> TabUserInfo.class</item>
+        <item>TabInternetExam.class</item>
+        <item>TabMore.class</item>
+    </string-array>
+
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="app_menu_surelogout">确定退出程序吗？</string>
+    <!-- Login Dialog Start -->
+    <string name="login_dialog_account">账号:</string>
+    <string name="login_dialog_account_hint">输入账号/邮箱</string>
+    <string name="login_dialog_password">密码:</string>
+    <string name="login_dialog_password_hint">输入密码</string>
+    <string name="login_dialog_rememberMe">记住我的登录信息</string>
+    <string name="login_dialog_login">登  录</string>
+    <string name="login_dialog_reg">注  册</string>
+    <string name="guahao_item01">按医院查找</string>
+    <string name="guahao_item02">按科室查找</string>
+    <string name="falsh_image1">汇聚多家权威医院，提供最佳医疗资源!</string>
+    <string name="falsh_image2">智能导诊，挂什么科不问自明</string>
+    <string name="falsh_image3">网上挂号，告别排队烦恼</string>
+    <string name="falsh_image4">叫号提醒，出门时间好决定</string>
+    <string name="falsh_image5">最美医生</string>
+    <string name="txt_no_data">没有相关数据</string>
+    <string name="cs" />
+    <string name="date">2014/01/01</string>
+    <string name="tjbgzx">体检报告咨询</string>
+    <string name="zcbgzx">自测报告咨询</string>
+    <string name="zwsj">暂无数据</string>
+    <string name="wyzx">我要咨询</string>
+    <string name="fs">发送</string>
+    <string name="nhwzxlqbg">您还未在线领取过体检报告</string>
+    <string name="lqtjbg">领取体检报告</string>
+    <string name="app_manage">关于我们</string>
+    <string name="app_manage_context">\u0020\u0020\u0020\u0020\u0020\u0020\u0020国内首家推出网络医院并由此创新出相关服务的一款便捷、实用、专业的健康类手机小应用</string>
+    <string name="jsgl">家属管理</string>
+    <string name="jszh">家属账号</string>
+    <string name="jsgx">家属关系</string>
+    <string name="jsnc">家属昵称</string>
+    <string name="jssr">家属生日</string>
+    <string name="jsxb">家属性别</string>
+    <string name="jsmm">家属密码</string>
+    <string name="xzcy">选择成员</string>
+    <string name="tjz">体检者</string>
+    <string name="tjh">体检号</string>
+    <string name="yzm">验证码</string>
+    <string name="djxz">点击选择</string>
+    <string name="sjhm">手机号码</string>
+    <string name="tjsdj">体检时登记的号码</string>
+    <string name="lklq">立刻领取</string>
+    <string name="wsdyzm">未收到验证码?</string>
+    <string name="get_auth_code">获取验证码</string>
+    <string name="nhmykyd">您还没有可用的自测问卷,请先激活量表卡</string>
+    <string name="jhlbk">激活量表卡</string>
+    <string name="cszwb">红外线扫描影像:双乳小叶增生,建议来我院做进一步检查</string>
+    <string name="kmm">卡密码</string>
+    <string name="qsrlbkmm">请输入量表卡密码</string>
+    <string name="lkjh">立刻激活</string>
+    <string name="rhgm">如何购买?</string>
+    <string name="zzfx">专家分析量表,一般需要3至5个工作日,请您耐心等待…</string>
+    <string name="nhmykydpg">您还没有可用的评估问卷,请先激活量表卡</string>
+    <string name="mftw">免费咨询</string>
+    <string name="sendquestion">发送</string>
+    <string name="jhtx">叫号提醒</string>
+    <string name="jxtx">检测提醒</string>
+    <string name="fytx">服药提醒</string>
+    <string name="wtx">无提醒</string>
+    <string name="nzlx">闹钟类型</string>
+    <string name="nzls">闹钟铃声</string>
+    <string name="qsrtsnr">请输入提醒内容</string>
+    <string name="nzzd">振动</string>
+    <string name="bcsz">保存设置</string>
+    <string name="tsts">推送提示</string>
+    <string name="hjxq">详情</string>
+    <string name="syt">上一题</string>
+    <string name="xyt">下一题</string>
+    <string name="qsr">请输入</string>
+    <string name="csjg">测试结果</string>
+    <string name="csdf">此次量表测试得分：**</string>
+    <string name="csyycd">您的抑郁程度为：轻度抑郁</string>
+    <string name="qdjskjz">请到精神科就诊</string>
+    <string name="djjr"><a href="http://baike.baidu.com/view/332.htm?fromId=1555#5">请点击抑郁症链接了解相关情况</a></string>
+    <string name="zxys">咨询医生</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载…</string>
+    <string name="xlistview_header_last_time">上次更新时间</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Release to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Loading</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="online_msg">医生您好，我想问一下，五灵丸是在什么情况下服用的。</string>
+    <string name="online_msg_4">医生您好，我想问一下，板蓝根冲剂什么时候服用最佳。</string>
+    <string name="online_msg_2">医生您好，请问什么时候孕期应该注意些什么？。</string>
+    <string name="online_msg_3">医生您好，请问出院我老是觉得胃不舒服，想吐。</string>
+    <string name="online_msg_1">您好，五灵丸是一种安神、补气药品，一般情况是在气喘、心烦意乱、心慌等情况下服用。</string>
+    <string name="more_problem_item">问题：医保卡是否能绑定？掌中医院支持什么卡？\n答案：医保卡在医院纠正之后，才能够被绑定。掌中医院支持医保卡（9位），白玉兰卡（10位），自费卡（15位），但提前是在掌中医院就诊过.</string>
+    <string name="more_statement_item">\u0020\u0020\u0020\u0020\u0020\u0020\u0020我们采用的非本站原创文章图片等内容：
+    尽管我国尚未制订专门针对互联网上版权（著作权）的法律和法规，但我们根据我国现行著作权法的有关原则以及我们对网上作品版权保护的理解，就站内内容的版权事宜，作如下声明： \n
+    1、所有的文章、图片、音频视频文件等等资料的版权归版权所有人所有。 \n
+    2、本站采用的非本站原创文章图片内容如果无法和版权者联系，我们本着尊重的原则，在文章右部或者下部等处特别醒目地注明来源说明； \n
+    3、如果您是文章、图片等等资料的版权所有人，请与我们联系并说明具体文章标题，我们会及时加上版权信息，如果您反对我们的使用，本着对版权人尊重的原则，我们会立即移除有版权问题的内容。 \n
+    4、对于已经授权独家提供给本站资料的版权所有人的文章、图片等等资料，如需转载，需得到本站和版权所有人的同意。 \n
+    5、在本网站发表、转载的文章仅代表作者本人观点，本网站没有义务查实文章或图片、音频、视频文件的出处及其真实性。\n
+    6、本网站上所发表的文章及其它附属品（如示例代码、截图及音、视频等），如果侵犯了第三方的知识产权或其他权利，责任由作者或转载者本人承担，本网站对此不承担责任。 \n
+
+我们独立采编的原创文章图片等内容：\n
+    1、我们原创采编的文章图片版权由我们全部保留。需要转载刊登的媒体或商业网站需得到我们的同意。个人网站转载刊登我们文章图片，请在文章题目附近用显要字体写明来自本网站。 \n
+    2、已经转载本站原创文章图片的媒体或者商业网站，除我们的合作者外，请在文章图片题目附近用显要字体写明来自本网站，否则必须支付转载费用或经我站同意，我们保留索取费用的权利； \n
+    3、免责：我们在我们能知悉的范围内努力保证所有采写文章的真实性和正确性，但不对真实性和正确性做任何保证。本站采写文章图片如果和事实有所出入，本站不承担连带责任； \n
+    4、关于图片：本站独立拍摄的图片任何媒体及网站均可以在不删除版权标志的前提下免费使用 。 
+
+论坛免责说明：\n
+    1、本网站文章仅代表作者本人的观点，不代表本网站的观点和看法，与本网站立场无关，文责作者自负。 \n
+    2、本网站郑重提醒访问者：请在转载有关文章时务必尊重该文章的版权、著作权；如果您发现有您未署名的文章，请立即和我们联系，我们会在第一时间加上您的署名或做相关处理。 如果您发现您的相关信息或资料在此转载并且觉得侵犯了您的版权,敬请来函 service@kanguv.com 通知我们，我们将在第一时间进行更改或者删除。任何人在本站发表的任何信息都不得违反中华人民共和国相关法律法规,并且请文明用语,否则后果由发表者自行承担。 
+\n
+服务暂停、变更与中止免责说明\n
+    1、用户理解，网站需要定期或不定期地对提供网络服务的平台或相关的设备进行检修或者维护，如因此类情况而造成收费网络服务在合理时间内的中断，网站无需为此承担任何责任，但网站应尽可能事先进行通告。 \n
+    2、如发生下列任何一种情形，网站有权随时中断或终止向用户提供本协议项下的网络服务（包括收费网络服务）而无需对用户或任何第三方承担任何责任： \n
+       2.1 用户提供的个人资料不真实； \n
+       2.2 用户违反本协议中规定的使用规则； \n
+       2.3 用户在使用收费网络服务时未按规定向网站支付相应的服务费。 \n
+       2.4 用户违反《网站服务协议》。 \n
+       2.5 用户违反《健康有为网网上问诊原则》。 \n
+       2.6 网站认为其他不适宜的地方。 \n
+
+会员服务免责说明：\n
+    网站不对网站发布的医疗健康信息、用户发表的提问或回答的正确性、医生会员和网站医生开展服务中的建议性内容的正确性进行保证。用户应该理解网站医生和医生会员开展网上服务的性质和内容，问题回答结果属建议性内容，不能作为诊断及医疗的依据，用户不可按照网站医生和医生会员在网站上给出的建议自行购买，更不可按照网站医生和医生会员在网站提供的治疗方法自行实施治疗。如用户按照网站发布的医疗健康信息、其他用户发表的提问或回答来指导自身或者他人的生活，由此造成的后果由该用户担责，网站无责。 
+\n
+隐私保护免责说明\n
+由于您将用户密码或支付密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露。 任何由于计算机问题、黑客政击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络正常经营之不可抗力而造成的个人资料泄露、丢失、被盗用或被窜改等。 网站的网页上有与其他网站网页的链接，包括旗帜广告和网页上的其他广告。网站对其他任何网站的内容、隐私政策或运营，或经营这些网站的公司的行为概不负责。在向这些与网站链接的网站提供个人信息之前，请查阅它们的隐私政策。 由于与本网站链接的其它网站所造成之个人资料泄露及由此而导致的任何法律争议和后果。 
+\n
+其他说明：\n
+    1、本网站对于任何包于、经由、或链接、下载或从任何与本网站有关服务（以下简称「服务」）所获得之资讯、内容或广告（以下简称「资料」），不声明或保证其内容之正确性或可靠性；并且，对于您透过「服务」上之广告、资讯或邀约而展示、购买或取得之任何产品、资讯或资料（「产品」），本公司亦不负品质保证之责任。您于此接受并承认信赖任何「资料」所生之风险应自行承担。本网站有权但无此义务，改善或更正在「服务」或「资料」任何部分之错误或疏失。 
+\n    2、本网站之服务与资料是基于「现状」提供，而且明确地表示拒绝对于「服务」、「资料」或「产品」给予任何明示或暗示之保证，包括但不限于，得为商业使用或适合于特定目的之保证。对于因「服务」、「资料」或「产品」所生之任何直接、间接、附带的或因此而导致之衍生性损失概不负责。 
+\n    3、本网站尊重他人的任何权利（包括知识产权），同时也要求我们的使用者也尊重他人之权利。 
+ \n   4、我们不担保有关网络服务一定能满足用户的全部要求，也不担保网络服务不会受中断，对网络服务的及时性、安全性、准确性都不作担保。 
+ \n   5、当本网站以链接形式推荐其他网站内容时，本网站并不对这些网站或资源的可用性负责，且不保证从这些网站获取的任何内容、产品、服务或其他材料的真实性、合法性，对于任何因使用或信赖从此类网站或资源上获取的内容、产品、服务或其他材料而造成（或声称造成）的任何直接或间接损失，本网站均不承担任何责任。
+\n
+发生下列情况时，本网站亦毋需承担任何责任：
+ \n   a、由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露。 
+ \n   b、任何由于计算机系统问题、黑客政击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络正常经营之不可抗力而造成的个人资料泄露、丢失、被盗用或被篡改等。 
+\n    c、由于与本网站链接的其它网站所造成之个人资料泄露及由此而导致的任何法律争议和后果。 </string>
+    <string name="hosp_detail0"> \u0020\u0020\u0020\u0020\u0020\u0020\u0020约翰.霍普金斯医院（JHH）是约翰霍普金斯大学医学院的附属医院，位于马里兰州巴尔的摩市，建立于1879年。JHH及1883年建立的医学院，在创建之初便采取了严格的入学标准，设置全面的强调科学方法的医学课程，将临床教学与实验室研究相结合，并确立了医学院和下设附属医院的发展模式，已经发展成为世界一流的医院和医学院，连续多年稳居美国医院及医学院排行榜首位。
+  下设科室：耳鼻咽喉科（1）、风湿病（1）、泌尿科（1）、老年病学（2）、妇科（2）、神经病学和神经外科（2）、眼科（威尔玛眼科研究所）（2）、精神病学（2）、癌症（3）、消化系统紊乱（3）、内分泌（3）、心脏疾病与心脏手术（3）、呼吸道疾病（3）、肾脏疾病（6）、骨科（6）、整形外科（6）、康复科（15）。</string>
+    <string name="hosp_detail1"> \u0020\u0020\u0020\u0020\u0020\u0020\u0020麻省总医院（MGH）建立于1811年，是美国历史最悠久的三所医院之一，也是新英格兰地区建立最早、规模最大的医院和哈佛医学院建立最早、规模最大的教学医院。
+  MGH外科下设10个专业（Divisions）：烧伤科、心脏外科、普通外科、小儿外科、整形外科（Plastic and Reconstructive Surgery）、外科肿瘤学（Surgical Oncology）、胸外科、移植外科、创伤急救外科和重症监护（Trauma, Emergency Surgery and Critical Care）、血管外科（Vascular and Endovascular Surgery）。</string>
+    <string name="hosp_detail2"> \u0020\u0020\u0020\u0020\u0020\u0020\u0020作为世界顶尖的肿瘤研究机构之一，日本的国立癌症中心（NCC）有中央病院和东病院两个院区。设内科、呼吸科、消化科、脑外科、胸外科、眼科、妇科、放射肿瘤科等科室，其肿瘤治疗特色为质子治疗。质子治疗主要用于眼部肿瘤、肺癌、肝癌等恶性肿瘤，具有对肿瘤高效能治疗作用和对周边正常组织损伤小的优点治疗癌症的先进技术放射线治疗是癌症的常规治疗方法之一，它是通过把放射线照射到肿瘤部位，杀死癌细胞或抑制癌细胞增殖。然而，目前一般使用的X 射线和γ射线等光子线存在也会同时照射到肿瘤周围正常组织，产生副作用的问题。为了能更精确地照射肿瘤组织，现在研发出了粒子线治疗技术（质子线和重粒子线治疗）。</string>
+
+    <string-array name="hospital_introduce_detail">
+        <item>\u0020\u0020\u0020\u0020\u0020\u0020\u0020约翰.霍普金斯医院（JHH）是约翰霍普金斯大学医学院的附属医院，位于马里兰州巴尔的摩市，建立于1879年。JHH及1883年建立的医学院，在创建之初便采取了严格的入学标准，设置全面的强调科学方法的医学课程，将临床教学与实验室研究相结合，并确立了医学院和下设附属医院的发展模式，已经发展成为世界一流的医院和医学院，连续多年稳居美国医院及医学院排行榜首位。
+  下设科室：耳鼻咽喉科（1）、风湿病（1）、泌尿科（1）、老年病学（2）、妇科（2）、神经病学和神经外科（2）、眼科（威尔玛眼科研究所）（2）、精神病学（2）、癌症（3）、消化系统紊乱（3）、内分泌（3）、心脏疾病与心脏手术（3）、呼吸道疾病（3）、肾脏疾病（6）、骨科（6）、整形外科（6）、康复科（15）。</item>
+        <item> \u0020\u0020\u0020\u0020\u0020\u0020\u0020麻省总医院（MGH）建立于1811年，是美国历史最悠久的三所医院之一，也是新英格兰地区建立最早、规模最大的医院和哈佛医学院建立最早、规模最大的教学医院。
+  MGH外科下设10个专业（Divisions）：烧伤科、心脏外科、普通外科、小儿外科、整形外科（Plastic and Reconstructive Surgery）、外科肿瘤学（Surgical Oncology）、胸外科、移植外科、创伤急救外科和重症监护（Trauma, Emergency Surgery and Critical Care）、血管外科（Vascular and Endovascular Surgery）。</item>
+        <item> \u0020\u0020\u0020\u0020\u0020\u0020\u0020作为世界顶尖的肿瘤研究机构之一，日本的国立癌症中心（NCC）有中央病院和东病院两个院区。设内科、呼吸科、消化科、脑外科、胸外科、眼科、妇科、放射肿瘤科等科室，其肿瘤治疗特色为质子治疗。质子治疗主要用于眼部肿瘤、肺癌、肝癌等恶性肿瘤，具有对肿瘤高效能治疗作用和对周边正常组织损伤小的优点治疗癌症的先进技术放射线治疗是癌症的常规治疗方法之一，它是通过把放射线照射到肿瘤部位，杀死癌细胞或抑制癌细胞增殖。然而，目前一般使用的X 射线和γ射线等光子线存在也会同时照射到肿瘤周围正常组织，产生副作用的问题。为了能更精确地照射肿瘤组织，现在研发出了粒子线治疗技术（质子线和重粒子线治疗）。</item>
+    </string-array>
+    <string-array name="clockadd_hour_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="clockadd_12hour_array">
+        <item>12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="clockadd_mins_array">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+</resources>

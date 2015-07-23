@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#4cbc00"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/more_return_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/undo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="#4cbc00"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/more_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_manage"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/more_linear"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#4cbc00"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/btn_additem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+          <TextView
+                android:id="@+id/more_listview_no_data"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/txt_no_data"
+                android:visibility="gone"
+                android:textSize="20sp" />
+     
+        <ListView
+            android:id="@+id/more_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#cacaca"
+             >
+            
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

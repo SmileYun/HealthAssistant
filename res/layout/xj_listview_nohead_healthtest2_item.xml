@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20.0dip"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_lvitem_title"
+        style="@style/tvBody_textGreen"
+        android:layout_width="fill_parent"
+        android:drawableRight="@drawable/icon_arrow_right_small"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.0"
+        android:padding="10.0dip" />
+
+    <View style="@style/line_0.5dp" />
+
+    <TextView
+        android:id="@+id/tv_lvitem_body"
+        style="@style/tvBody_1.8"
+        android:layout_marginTop="10.0dip"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:padding="10.0dip"
+        android:text="@string/cszwb" />
+
+    <View style="@style/line_0.5dp" />
+
+    <View
+        style="@style/line_0.5dp"
+        android:layout_height="10.0dip"
+        android:background="@color/gray" />
+
+</LinearLayout>

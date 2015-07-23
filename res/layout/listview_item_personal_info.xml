@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/personal_left_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/personal_left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/personal_left_img"
+        android:text="挂号记录查询"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/personal_left_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+         android:layout_centerVertical="true"
+        android:background="#00000000"
+        android:src="@drawable/vote_news_arrow" />
+
+</RelativeLayout>

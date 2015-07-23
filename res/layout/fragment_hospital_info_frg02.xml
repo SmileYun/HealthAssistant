@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:padding="3dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/fragment_hospital_info_right_swicher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="医院导航"
+                android:textColor="@android:color/background_dark"
+                android:textSize="@dimen/fontsize14" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/heal_image"
+                    android:layout_width="70dp"
+                    android:layout_height="44dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/host" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/yishengjianjie_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingBottom="5dp"
+                    android:text="重庆市儿童医院"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize14" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="重庆市新北路238号"
+                    android:textColor="#979797"
+                    android:textSize="@dimen/fontsize14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/btn_nav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hospitalinform_listview_item_border"
+                    android:text="楼层导航"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:scaleType="centerCrop"
+            android:src="#d5d5d5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【医院交通】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/yishengjianjie_goodat_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="途经医院交通路线："
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+
+                <GridView
+                    android:id="@+id/listview_hosp_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:numColumns="7" >
+                </GridView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:scaleType="centerCrop"
+            android:src="#d5d5d5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/web_http"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【官方网站】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/web_http_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="5dp"
+                    android:text="htpp://baidu.com"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/call_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【电话联系】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/call_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="5dp"
+                    android:text="公开电话：023-67387474"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/text_keshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【特色科室】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/keshi_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="5dp"
+                    android:text="感染科  放射科  神经内科  妇产科"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/text_xueke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【重点学科】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/xueke_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="5dp"
+                    android:text="危重病急救临床医疗中心、消化疾病诊疗中心、呼吸内科、肝肺科。"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/text_jieshao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="【医院介绍】"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/fontsize12" />
+
+                <TextView
+                    android:id="@+id/jieshao_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="5dp"
+                    android:text="陕西儿童医院是集医疗、教学、科研于一体的大型三级甲等综合医院，是国家卫生计生委指定的全国疑难重症诊治指导中心，也是最早承担高干保健
+
+和外宾医疗任务的医院之一，以学科齐全、技术力量雄厚、特色专科突出、多学科综合优势强大享誉海内外。在2010、2011、2012、2013年复旦大学医院管理研究所公布的“中国最佳医院
+
+排行榜”中连续四年名列榜首。
+"
+                    android:textColor="#727272"
+                    android:textSize="@dimen/fontsize12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

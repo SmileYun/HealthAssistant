@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3ffaf"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_hospital_register" />
+
+    <TextView
+        android:id="@+id/smart_choise_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"
+        android:text="asd"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fontsize20" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/smart_question_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="8dp"
+                android:text="2 "
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize18" />
+            <TextView
+                android:id="@+id/smart_question_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="8dp"
+                android:layout_toRightOf="@+id/smart_question_index"
+                android:text="是否从刚会说话起就发音不清？"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize14" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp" >
+
+            <Button
+                android:id="@+id/smart_question_btnyes"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/widget_height35"
+                android:layout_weight="1"
+                android:background="#037800"
+                android:padding="3dp"
+                android:text="是"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize16" />
+
+            <Button
+                android:id="@+id/smart_question_btnno"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/widget_height35"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#037800"
+                android:padding="3dp"
+                android:text="否"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize16" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

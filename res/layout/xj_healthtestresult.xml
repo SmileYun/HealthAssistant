@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/include"
+        layout="@layout/xj_head_common" />
+
+    <TextView 
+        style="@style/tvBody_textGreen"
+        android:layout_width="fill_parent" 
+        android:gravity="left"
+        android:text="@string/csjg"
+        android:lineSpacingMultiplier="1.0"
+        android:textSize="20sp"
+        android:padding="10.0dip" />
+    
+     <TextView 
+        style="@style/tvBody"
+        android:layout_width="fill_parent" 
+        android:gravity="left"
+        android:text="@string/csdf"
+        android:lineSpacingMultiplier="1.0" 
+        android:padding="10.0dip" />
+     
+     <TextView 
+        style="@style/tvBody"
+        android:layout_width="fill_parent" 
+        android:gravity="left"
+        android:text="@string/csyycd"
+        android:lineSpacingMultiplier="1.0" 
+        android:padding="10.0dip" />
+     
+      <TextView 
+        style="@style/tvBody"
+        android:layout_width="fill_parent" 
+        android:gravity="left"
+        android:text="@string/qdjskjz"
+        android:lineSpacingMultiplier="1.0" 
+        android:padding="10.0dip" />
+      
+      <TextView 
+          android:id="@+id/txtlink"
+         android:textColor="#1111EE"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:text="@string/djjr"
+        android:lineSpacingMultiplier="1.0"
+        android:autoLink="all"
+        android:padding="10.0dip" />
+      
+      <TextView 
+          
+         android:textColor="#ffd200"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:text="声明：该结果基于自己的标准或感觉回答所得，不能代替医生的诊断，如有疑问请咨询相关医生。"
+        android:lineSpacingMultiplier="1.0"
+        android:autoLink="all"
+        android:padding="4.0dip" />
+       <Button
+            android:id="@+id/btnAskDoctor"
+            style="@style/frame_btn_submit"
+            android:text="@string/zxys" />
+      
+    
+</LinearLayout>

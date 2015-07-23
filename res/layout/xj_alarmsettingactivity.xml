@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/xj_head_common" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/multi_selector_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.dongshi.healthassisant.ui.alarm.wheelview.WheelView
+            android:id="@+id/clockadd_hour"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content" />
+
+        <com.dongshi.healthassisant.ui.alarm.wheelview.WheelView
+            android:id="@+id/clockadd_minutes"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.dongshi.healthassisant.widget.ClearEditText
+        android:id="@+id/cetalarmcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:hint="@string/qsrtsnr" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_sun_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_mon_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_tue_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_wed_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_thu_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_fri_toggle"
+            android:button="@null" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/xj_sat_toggle"
+            android:button="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:background="@color/white"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical" >
+        <TextView
+                android:id="@+id/txtalarmtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:maxLines="2"
+                android:text="@string/nzlx"
+                 android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+        <TextView
+                android:id="@+id/txtalarmringtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                 android:layout_margin="10dp"
+                android:maxLines="2"
+                android:text="@string/nzzd"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:background="@color/white"
+             android:gravity="right|center_horizontal"
+            android:orientation="vertical" >
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnalarmtypeset"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+         android:layout_centerVertical="true"
+        android:background="@drawable/vote_news_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:background="@color/white"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical" >
+        <TextView
+                android:id="@+id/txtalarmring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                 android:layout_margin="10dp"
+                android:maxLines="2"
+                android:text="@string/nzls"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+        <TextView
+                android:id="@+id/txtalarmringcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_margin="10dp"
+                android:maxLines="2"
+                android:text="Morning flower alarm"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:background="@color/white"
+            android:gravity="right|center_horizontal"
+            android:orientation="vertical" >
+
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnalarmringset"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+         android:layout_centerVertical="true"
+        android:background="@drawable/vote_news_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnsave"
+        style="@style/frame_btn_submit"
+        android:text="@string/bcsz"
+        android:textSize="20.0sp" />
+
+</LinearLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#4cbc00"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/more_return_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/undo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:background="#4cbc00"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/more_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_manage"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/listview_item_ch_border"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属账号"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext1"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:hint="字母开头,4至14个字母或数字"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:focusable="true" 
+            android:focusableInTouchMode="true"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属关系"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext2"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:hint="点击选择"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属称昵"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext3"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="2.5"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属性别"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="男"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="女" 
+                    android:textSize="14sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+             android:focusable="true" 
+            android:focusableInTouchMode="true"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属生日"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext4"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:hint="点击选择"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="手机号码"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext5"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:hint="用于找回密码"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="家属密码"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext6"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:hint="6至14个字符，区分大小写"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:background="@drawable/listview_item_add_border"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/more_text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="确认密码"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/more_Editext7"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_weight="4"
+                android:background="@drawable/listview_item_edittext_border"
+                android:paddingRight="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/listview_item_btn_border"
+        android:text="确定"
+        android:textColor="#4cbc00" />
+
+</LinearLayout>

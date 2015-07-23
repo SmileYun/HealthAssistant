@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingLeft="13.0dip"
+    android:paddingRight="13.0dip"
+    android:paddingTop="13.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7.0dip"
+            android:layout_weight="0.1"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/txtanswercontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/talk_text_bg"
+                android:padding="6.0dip"
+                android:text="  "
+                android:textColor="@color/black"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/doctor_answer_right_icon" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/send_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0dip"
+        android:gravity="right"
+        android:textColor="@color/bg_gray" />
+
+</LinearLayout>

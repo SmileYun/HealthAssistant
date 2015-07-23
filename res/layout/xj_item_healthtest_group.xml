@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/line_0.5dp"
+        android:layout_height="10.0dip"
+        android:background="@color/gray" />
+
+    <View style="@style/line_0.5dp" />
+
+    <LinearLayout style="@style/ll_horizontal" >
+
+        <TextView
+            android:id="@+id/tv_healthtest_group_title"
+            style="@style/tvBody"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="1.0"
+            android:padding="10.0dip"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/tv_healthtest_group_score"
+            style="@style/tvBody"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/icon_arrow_bottom_small"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:textColor="@color/green" />
+    </LinearLayout>
+
+    <View style="@style/line_0.5dp" />
+
+</LinearLayout>

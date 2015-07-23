@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/listview_hospital_fragment_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:listSelector="@null"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/fragment_hospleft_listview_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/lv_green_dan"
+        android:orientation="vertical" >
+       
+        <TextView
+            android:id="@+id/generaltext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lv_green_dan"
+            android:padding="4dp"
+            android:text="疾病0"
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>

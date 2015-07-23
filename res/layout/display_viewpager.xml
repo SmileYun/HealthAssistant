@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.dongshi.healthassisant.widget.ViewPagerCustomDuration
+        android:id="@+id/tab_main_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/display_index"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="#44888888"
+        android:gravity="center_vertical"
+        android:paddingBottom="0dp" >
+
+        <ImageView
+            android:id="@+id/pvindex4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/page"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/pvindex3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/pvindex4"
+            android:background="@drawable/page"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/pvindex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/pvindex3"
+            android:background="@drawable/page"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/pvindex1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/pvindex2"
+            android:background="@drawable/page"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/pvindex0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/pvindex1"
+            android:background="@drawable/page_now"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="@string/falsh_image1"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
